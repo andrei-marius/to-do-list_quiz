@@ -1,0 +1,42 @@
+.hidden {
+    display: none;
+}
+body{
+    background: #352f5b;
+}
+#btns-container {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.showq, .showtdl {
+    border: none;
+    outline: none;
+    background: lightgrey;
+    padding: 5px;
+}
+
+.showq:focus, .showtdl:focus {
+    outline: none;
+}
+.tdl-container{
+    max-width: 400px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+input[type=text],
+input[type=text]:focus{
+    color: #fff;
+    border: none;
+    background: rgba(0,0,0,0.2);
+    max-width: 400px;
+}
+.todos li{
+    background: #423a6f;
+}
+.delete{
+    cursor: pointer;
+}
+.filtered{
+    display: none !important;
+}
